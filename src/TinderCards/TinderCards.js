@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import './TinderCards.css';
 import TinderCard from 'react-tinder-card';
+import farhad from '../image/farhad.jpg';
 
 
 const TinderCards = () => {
     const [people, setPeople] = useState([
         {
-            name: "Elon Musk",
-            url: "https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg",
+            name: "Mohammed Farhad Uddin",
+            url: `${farhad}`,
         },
         {
-            name: "Jeff Bezos",
-            url: "https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg",
+            name: "Mohammed Farhad Uddin",
+            url: `${farhad}`,
         },
     ]);
 
